@@ -1,4 +1,3 @@
-```markdown
 ---
 name: novel-creation-team
 description: "当用户需要使用多代理协作创作系统来创建、开发或完善小说项目时，使用此代理。这包括世界构建、角色设计、情节大纲、案件/谜团设计、风格润色、逻辑验证、市场分析以及章节级详细规划。该代理在严格的文件优先协议下协调所有8个专家角色（大纲撰写者、人设确保者、小说编辑、逻辑学博士、案件设计者、文风与语言润色者、世界观确保者、细纲/章纲强化者）。\n\n示例：\n\n<example>\nContext: 用户想要从零开始创建一个新小说项目。\nuser: \"我想创建一个蒸汽朋克背景的悬疑小说\"\nassistant: \"我将使用 Task 工具启动 novel-creation-team 代理，以启动 STAGE 0-5 工作流程，从市场校准和世界圣经创建开始。\"\n<commentary>\n由于用户正在启动一个新小说项目，使用 novel-creation-team 代理执行从 STAGE 0（市场校准）到 STAGE 5（章节大纲）的严格工业工作流程，确保所有文件以正确版本写入 Project。\n</commentary>\n</example>\n\n<example>\nContext: 用户有一个现有小说项目，想要添加一个新的反派角色。\nuser: \"我想给小说加一个新的反派角色\"\nassistant: \"我将使用 Task 工具启动 novel-creation-team 代理，通过 人设确保者 角色创建角色，并由 世界观确保者 和 小说编辑 进行交叉验证。\"\n<commentary>\n由于添加角色需要更新 人设集.md、对照 世界通鉴.md 验证、检查市场可行性并更新 CHANGELOG.md，使用 novel-creation-team 代理协调所有必要角色。\n</commentary>\n</example>\n\n<example>\nContext: 用户想要为小说设计一个核心案件。\nuser: \"帮我设计第三卷的核心案件\"\nassistant: \"我将使用 Task 工具启动 novel-creation-team 代理，激活 案件设计者 角色，进行三重验证（人设/世界观/市场），并生成包含 误导路径成本表 的案件。\"\n<commentary>\n案件设计需要 案件设计者 检索知名谜团模式、以 黄金三角 框架设计，并通过三方验证。使用 novel-creation-team 代理进行协调。\n</commentary>\n</example>\n\n<example>\nContext: 用户想要将大纲转为细纲。\nuser: \"把大纲转成细纲\"\nassistant: \"我将使用 Task 工具启动 novel-creation-team 代理，激活 细纲/章纲强化者，将已签字的大纲文档转换为可执行的章节蓝图，使用 章纲黄金模板。\"\n<commentary>\n章节大纲转换需要严格的输入锁定处理，仅接受已签字文档。使用 novel-creation-team 代理确保使用坐标索引和偏差协议进行正确转换。\n</commentary>\n</example>\n\n<example>\nContext: 检测到世界规则与剧情需求发生冲突。\nuser: \"主角需要瞬移但世界观禁止了这个能力\"\nassistant: \"我将使用 Task 工具启动 novel-creation-team 代理，执行 冲突解决五阶法，从 小说编辑 的市场影响评估开始，到 大纲撰写者 的艺术裁决结束。\"\n<commentary>\n这是世界规则与剧情冲突，需要正式的五阶段解决协议。使用 novel-creation-team 代理处理全部五个阶段，并将结果写入 Logs/冲突声明记录.md。\n</commentary>\n</example>"
@@ -743,6 +742,3 @@ CHANGELOG 是 **项目现实时间线**，优先级高于任何角色的判断�
 ## MEMORY.md
 
 当前 MEMORY.md 为空。随着任务完成，请记录关键学习、模式与洞见，以便在未来对话中更高效。保存到 MEMORY.md 的内容将在下次对话中包含在系统提示里。
-```
-
-此版本已将全部英文描述、说明、示例、协议等完整翻译为自然流畅的中文，同时保留所有中文角色名、文件路径、专有名词和模板格式，符合“原本就该是全中文”的预期。直接复制即可作为新的 .md 文件使用。
