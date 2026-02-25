@@ -2,26 +2,70 @@
 
 ## Project: Unnamed Fantasy/Mystery Novel (奥里斯塔尼世界)
 
-### Key File Locations & Sizes (Updated 2026-02-21, Post-Audit Write)
-- WorldBible/世界通鉴.md: 5481 lines, V0.5
-- WorldBible/世界通鉴·系统篇.md: ~730 lines, **V2.0** (灵值+灵质 appendices added)
-- WorldBible/世界通鉴·典籍·科技文明.md: ~562 lines (灵石→灵质 5 replacements)
-- WorldBible/世界通鉴·六国志.md: ~1142 lines (灵石→灵质结晶 3 replacements)
-- WorldBible/世界通鉴·典籍·灵学.md: (灵石→灵质结晶 1 replacement)
-- WorldBible/世界通鉴·典籍·经济社会.md: (灵石→灵质结晶 1 replacement)
-- WorldBible/世界通鉴·人物图鉴.md: ~650 lines, **V2.0** (Elias+Karl entries added)
-- Characters/人设集.md: ~1550 lines, **V2.1** (Task5同步：Agnes 2阶/Leoric #62/Reynard V5)
-- Outline/小说节奏规划.md: 2469 lines, **V3.2** (频率签名→纹路 3 replacements)
+### Key File Locations & Sizes (Updated 2026-02-24)
+- **NEW** WorldBible/世界通鉴·健康索引.md: ~100 lines, V1.0 (mandatory pre-work dashboard)
+- WorldBible/世界通鉴.md: 51 lines (index), V1.1 (updated with health index reference)
+- Characters/人设集.md: 1383 lines, V1.0
+- Outline/小说节奏规划.md: 2469 lines, **V3.1** (Ch1-7 synced with 第一卷V5.1)
 - Outline/商业安全线报告.md: ~350 lines, **V2.0** (rewritten 2026-02-20, Phase 2)
-- Cases/案件与伏笔集.md: ~1400 lines, **V3.1** (频率签名→纹路+D命名来源+D悬念范围)
+- Cases/案件与伏笔集.md: 1354 lines, **V3.0** (rewritten 2026-02-20, Phase 1) — **注意：STAGE引用已更名为"核心事件与伏笔集"，但文件名保持不变**
 - Cases/误导路径成本表.md: ~500 lines, **V2.0** (rewritten 2026-02-20, Phase 1)
 - Volumes/第一卷.md: **~8500 lines, V5.3** (Task1-3整合+C-16德米特里五层强化+验证附录)
 - 正文/Mian.novel: ~449 lines (early draft, ABSOLUTE BASELINE for Ch1-4)
-- Cases/五卷案件总纲.md: **752 lines, V2.3** (Agnes fix + event-level diversity tables, 2026-02-21)
-- CHANGELOG.md: **V3.6** (Task4 V5.3升级完成, 2026-02-21)
-- Concept/概念审计报告.md: **V2.1** (D-naming scope: volume 1 only, 2026-02-21)
+- CHANGELOG.md: **V3.0** (current, 百万字网文规模适配)
 - Logs/Phase4_同步验证报告.md: V1.0
 - README.md: **V2.0** (rewritten 2026-02-20)
+- **NEW** Reference/概念参考库.md: V1.0 (外置自Z角色)
+- **NEW** Reference/日常场景资产库.md: V1.0 (外置自C角色)
+- **NEW** Reference/多样性来源库.md: **V2.0** (从16类智斗平面结构重构为7层叙事参考体系，~80部作品，含调研卡协议)
+
+### V3.0 百万字网文规模适配 (2026-02-24)
+- **事件规模表重写**: 双维度(净占用章节+总跨度)，配额适配101章/卷（微型20-30/小型6-10/中型3-5/大型1-2）
+- **事件弧设计系统**: 6阶段内部结构(引入/展开/转折/深入/高潮/余波) + L0-L3嵌套架构（中型以上强制）
+- **推进章**: 新章节类型(紧张值4-7)，填补核心章与过渡章之间空白
+- **节奏配比**: 固定10章周期→弹性15-25章滑动窗口，百分比制
+- **冲刺段例外**: 仅限终幕引爆段/中点合流段，允许6-8章连续核心/连续高紧张
+- **呼吸三层体系**: 卷级呼吸 + 事件弧级呼吸 + 弧内呼吸点(每8-12章)
+- **支线三层合流**: 短(15-20章)/中(30-50章)/长(跨卷)，脉搏检测阈值20章，支持计划内休眠
+- **设计性沉默期**: 叙事线可预标注最长15章沉默，每卷每线最多1次
+- **级联引爆/汇聚节奏**: 四级分级参数(触碰/碰撞/合流/终幕引爆)
+- **伏笔回收双轨制**: 线内章节距离 + 总章节距离
+- **Decisions R-19 through R-23 recorded**
+- **下游待适配**: 小说节奏规划(+推进章)、第一卷(+新事件规模)、案件集(+双轨制)、多样性来源库(+新Tier)
+
+### V2.1 WorldBible Management System (2026-02-24)
+- **Health Index created**: `WorldBible/世界通鉴·健康索引.md` V1.0 — mandatory pre-work dashboard
+- **G role strengthened**: authority chain, 7-type consistency checklist, 5-step audit protocol, version management, reading guidance
+- **D role strengthened**: pre-validation read protocol (health index → type-based modules → cross-compare), enhanced output with `【世界通鉴引用验证】`
+- **Pre-work protocol updated**: step 2 = read health index; role-based reading path table (8 roles × required + optional modules)
+- **UPDATE workflow updated**: step 4.5 = WorldBible consistency check; dependency graph includes health index
+- **Bugs fixed**: H-001 (Dmitri #67→removed from 21-50 table), H-002 (Eileen #23→#22), H-003 (old terms replaced), H-004 (2阶感应者→二序·共鸣)
+- **Decisions R-17, R-18 recorded**
+- **Authority chain**: 系统篇 > 总纲 > 典籍 > 六国志/秘密组织/人物图鉴
+
+### V2.0 Agent Architecture Restructure (2026-02-24)
+- **Agent file reduced**: 1215 lines → ~900 lines (~26% reduction)
+- **Token budget rebalanced**: Z(37%→13%), A(1%→11%), B(4%→9%), C(25%→11%), D(2%→7%), E(5%→7%), F(0.8%→9%), G(3.5%→6%), H(2.6%→2%)
+- **Genre Adaptation Layer added**: conditional modules `[条件模块:mystery/romance/fantasy/political_intrigue/horror/literary]` with weight-based activation
+- **Detective hardcoding removed**: Christie fusion, suspect chains, mini-puzzles moved to `[条件模块:mystery]`
+- **Static data externalized**: 3 reference files in `/Project/Reference/`
+- **E role renamed**: 案件设计者 → 事件与冲突设计者 (Event & Conflict Architect)
+- **多样性来源库 V2.0**: 7 tiers (世界架构/卷级框架/中型事件/小型事件/日常氛围/情感关系/结构手法), mandatory research protocol (来源调研卡), cross-tier mixing rule
+- **STAGE 4 renamed**: 案件与伏笔集 → 核心事件与伏笔集 (file name unchanged for backward compat)
+- **New STAGE 0 outputs**: 类型基因档案, 主题框架
+- **New STAGE 3 output**: 文风基调规划
+- **New project files**: Outline/类型基因档案.md, Outline/主题框架.md, Outline/支线登记表.md, Styles/文风基调规划.md
+- **Cases/ directory NOT renamed** (backward compat decision R-14)
+- **chapter-blueprint-engineer.md updated**: references to 案件设计者→事件与冲突设计者, 案件与伏笔集→核心事件与伏笔集
+- **Dual-mode workflow** (decision R-15): 模式检测→创建模式(STAGE 0-5) OR 迭代模式(UPDATE工作流)
+- **UPDATE工作流**: 影响分析→跨文件依赖图→级联深度控制(浅/中/深)→版本号规则→常见场景速查表
+- **Cross-file dependency map**: WorldBible→人设+事件; 人设→事件+文风; 节奏→章纲+商业线; 事件→章纲+误导表; etc.
+- **Multi-line convergence** (decision R-16): 多线并行→汇聚爆发升级为核心原则
+  - Line Architecture Table: 2-5 named lines per volume, each with own tension type
+  - 4 convergence types: 触碰(casual)/碰撞(forced)/合流(truth merge)/终幕引爆(all-line explosion)
+  - Cascade Detonation 5-step: 散播→暗流→触发→连锁→余震
+  - Rhythm management: pre-convergence tension sync pattern, inter-line switching rules
+  - Convergence Event Registration Form: mandatory for all medium+ events
 
 ### V3.0 Architecture (2026-02-20 Restructure)
 - **Four parallel lines** replacing three sequential cases:
@@ -78,10 +122,10 @@
 - Adrian: 7阶 at V1 start, 冠位#5, 皇位门槛=8阶 (V3.3 ruling)
 - Grigor: 8阶, 铸魂·造物型 (added to 六国志 L397)
 
-### Frozen Items (Updated 2026-02-21)
-- ~~World bible Part 8 (Kassarin details)~~ **UNFROZEN V3.3** -- all 3 conflicts resolved
+### Frozen Items (Updated 2026-02-24)
 - All 正文 writing - frozen
-- Non-human race decisions - resolved V1.0 (彼界实体化生物)
+- Non-human race decisions - frozen
+- ~~World bible Part 8 (Kassarin details)~~ - old terms fixed (H-003), no longer frozen
 
 ### What Works Well
 - Four-line parallel architecture creates natural cross-line misdirection opportunities
