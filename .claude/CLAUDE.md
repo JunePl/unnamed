@@ -1,1 +1,3 @@
 # alway use novel-creation-team agent for this project
+# 使用中文
+# 在做任何的任务前，先向我问问题，确保你95%以上明白我具体的意思后，才可以进行工作

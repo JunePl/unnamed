@@ -1,225 +1,152 @@
 # Novel Creation Team Memory
 
-## Project: Unnamed Fantasy/Mystery Novel (奥里斯塔尼世界)
+> **Topic files**: `version-history.md` (detailed changelogs) | `completed-work.md` (phase records + concept audit)
 
-### Key File Locations & Sizes (Updated 2026-02-24)
-- **NEW** WorldBible/世界通鉴·健康索引.md: ~100 lines, V1.0 (mandatory pre-work dashboard)
-- WorldBible/世界通鉴.md: 51 lines (index), V1.1 (updated with health index reference)
-- Characters/人设集.md: 1383 lines, V1.0
-- Outline/小说节奏规划.md: 2469 lines, **V3.1** (Ch1-7 synced with 第一卷V5.1)
-- Outline/商业安全线报告.md: ~350 lines, **V2.0** (rewritten 2026-02-20, Phase 2)
-- Cases/案件与伏笔集.md: 1354 lines, **V3.0** (rewritten 2026-02-20, Phase 1) — **注意：STAGE引用已更名为"核心事件与伏笔集"，但文件名保持不变**
-- Cases/误导路径成本表.md: ~500 lines, **V2.0** (rewritten 2026-02-20, Phase 1)
-- Volumes/第一卷.md: **~8500 lines, V5.3** (Task1-3整合+C-16德米特里五层强化+验证附录)
-- 正文/Mian.novel: ~449 lines (early draft, ABSOLUTE BASELINE for Ch1-4)
-- CHANGELOG.md: **V3.0** (current, 百万字网文规模适配)
-- Logs/Phase4_同步验证报告.md: V1.0
-- README.md: **V2.0** (rewritten 2026-02-20)
-- **NEW** Reference/概念参考库.md: V1.0 (外置自Z角色)
-- **NEW** Reference/日常场景资产库.md: V1.0 (外置自C角色)
-- **NEW** Reference/多样性来源库.md: **V2.0** (从16类智斗平面结构重构为7层叙事参考体系，~80部作品，含调研卡协议)
+## ★ CRITICAL CORRECTIONS ★
+- **D = 德米特里 (person)**, D模式 = his manipulation network (V1 mystery only). NOT "system"
+- **德米特里被莱奥里克利用** — 真正幕后 = 莱奥里克
+- **彼界**: 只有灵魂可进入(身体不行); 相遇几乎不可能; 视觉=像真实世界(非模糊)
+- **伊索尔德不是彼界初遇少女** — 七序太强。已创建诺敏(三序·渊潮·潮汐型·科尔曼萨满学徒)
+- **★ Line C = 完全独立超长线 ★** V1中与A/B/D零交叉零汇聚。V6/V7才碰撞主线。动机=灵的需求/好奇心/诺敏友谊/成长
+- **★ 开采痕迹/PC01 = 永久消除 ★** 不是推迟，是从项目中彻底删除。"彼界为什么会被开采？"=用户否决的核心概念
+- **★ V1新增Line E：假面王冠（奥古斯都三世暗线）★** 七步帝王棋局碎片。Line E非赛琳线
+- **★ 赛琳时间线(2026-02-28修正) ★**: V1完全不出现 → V2仅一次耳闻 → V3执行莱奥里克任务时意外与阿尔温相遇
+- **★ 阿尔温去草原的理由 = 去见诺敏 ★** 超长线钩子：V1彼界相遇→后期物理去科尔曼草原
+- **★ 阿涅丝不是伪造死亡(2026-02-28确认) ★**: 她真的变了。生来就该是血月圣女，被阿尔温影响一直没变，后被血月+七阶灵结合才活下来。白发血瞳身高更高挑。不直接展示变化过程→某事件中突然发现"那个人竟然是阿涅丝！"
+- **★ 阿尔温V1叙事定位=小人物(2026-02-28确认) ★**: 位阶设定保持不变（觉醒→二阶，卷末三阶=旧设定）。"小人物"纯指叙事角色定位：事件不围着他走→他被迫卷入、在事件中挣扎。日常也会进彼界提升自己
+- **★ V2没有D案件(2026-02-28确认) ★**: V2操控者=莱奥里克
+- **★ 画商=马蒂亚斯(被害者) ★**: 安东尼奥=三执政中的商业掌控者，卡萨林一切商会幕后之人
+- **★ 莱vs阿德里安(2026-02-28确认) ★**: 莱故意让自己身处阿德里安率众伏击的险境→意图死中求活突破八阶。阿德里安很佩服莱奥里克，死战下双方先后突破八阶
+- **★ V3阿尔温组织雏形 ★**: V3开始初步形成组织雏形→与血月接触→听说血月有了圣女
+- **三执政全员六序·破界**: 德(最强#67) / 塔(柱位) / 安(最弱,源流待定)
+- **天秤=彼界映射**: 痕位=中层佼佼者 / 刃位=中层强者 / 柱位=深层佼佼者 / 冠位=柱位特选
+- **德终极目标**: 独占已有傀儡灵 (杀安→制服塔→改写秘术→架空国王→独占)
+- **★莱奥里克绝不妥协/失败★**: 平弧角色(信念不变)。V4-V7中6处OOC让他"学会妥协"→严重违反人设。所有"妥协"=计划的一部分
+- **★种族机制必须融入剧情★**: 非人类种占66%，但当前事件/角色中完全空白。Non-human race decisions 解冻
+- **★事件集需全面重构★**: 赛琳缺席/彼界无趣/雷纳德尴尬/角色缺魅力。参考：赤心巡天(逼格)+异兽迷城(组织+牺牲)+术师手册(多女主+虚境)
+- **★ 一序不可入彼界 ★**: 一序·初感没有灵，不能进入彼界。只有二序·共鸣以上才可入。已全面修正
+- **★ 米莲娜·霜蛛·科斯托娃 ★**: TYPE 4女性宿敌。噬暗·掠食型（与阿尔温同源异途）。深层实体"末央"契约猎手+赫利亚"灰幕"线人。V2初遇→V3宿敌→V4合作→V5+暧昧。152条霜纹=受害者记录。名字避开"薇拉（幻弄师）"
+- **★ 彼界伙伴系统4类型完成 ★**: T1凯撒(先彼后实)+T2索兰(新角色掮客)+T3遗言者(彼界导师)+T4米莲娜(女性宿敌)
+- **★ 哈什克·风语(V3战友A实体化) ★**: 科尔曼兽灵族·兽灵·群感型。诺敏引荐Ch54加入→Ch94-95 L1死亡(感官逐一熄灭)。全书第一个非人类L1。与马库斯形成"火与寂静"死亡对比
+- **★ 薇奥莱塔·灰叶(V4间谍盟友实体化) ★**: 半精灵·织命·共感型(活测谎仪)。镜之眼中层特工暗助阿尔温。Ch38-40首次登场→Ch62-67 L1死亡(情感脉冲告别)。种族歧视间接产物
+- **★ 赫尔穆特·影刺(V4敌方核心实体化) ★**: 人类·噬暗·寄生型(德傀儡网络碎片执行者)。Ch83-88 L1死亡(被莱冠位杀手碾压击杀)。阿尔温暗面镜像(噬暗系但走寄生路线)
+- **★ 伊万·长忆(V5核心同伴实体化) ★**: 灵木族·织命·记忆型(活档案馆)。废墟47块碎片全读→Ch55-60 L1死亡(记忆宫殿过载→树纹覆盖身体→R-8遗言"记住我记住的"→Y-2记忆石)
+- **★ 奥丽加·影织(V5敌方L1·新增) ★**: 人类·织命·潜伏型(5-7同时替身)。德代理人网络执行者。Ch82-85 L1死亡(天秤震颤→替身同步抖动→真身暴露→灵力反噬→"到最后她仍在为他服务")。替代阿德里安V5 L1位(阿德里安降为V5 L4)
+- **★ 芬恩·晨歌(V6组织成员实体化) ★**: 半兽灵·璀耀·旋律型(声波全域传讯)。24岁最年轻成员。Ch40-45 L1死亡(废塔绝唱：通讯崩溃→声波传讯→科尔曼牧歌编码→声带/灵力/心脏依次烧毁→"他一直在唱歌")
+- **★ 塔莉亚·最后之盾(V7终局角色实体化) ★**: 人类·铸魂·封印型·远古精灵血统(金色左眼)。Ch85-88 L1死亡(裂缝群爆发→极限封印→身体同化灰白封印石→金色左眼最后消失→"封印双柱"呼应月之长老→"最后的盾从不为自己挡")
+- **★ 阿德里安V5/V7设计冲突修正 ★**: V5.0原设阿德里安V5 L1→但V7需要他活着(并肩战斗+虚妄灵对话+"重伤但活着"ending)→修正：V5降为L4(重伤/社会死亡)，新建奥丽加·影织填V5敌方L1
+- **★ 种族L1递进完成 ★**: V3兽灵族(哈什克)→V4半精灵(薇奥莱塔)→V5灵木族(伊万)→V6半兽灵(芬恩)→V7人类·远古精灵血统(塔莉亚)。全书7个占位符角色全部实体化完成
+- **★ 死亡配额V1-V7全满 ★**: V1:2 V2:2 V3:2 V4:2 V5:2(伊万+奥丽加) V6:2(芬恩+雷纳德) V7:3(月之长老+遗言者+塔莉亚)=总计17个L1
+- **★ 诺敏色气铁律(V2.0确立) ★**: 主体性=最强色气。禁止男凝描写→用"她评价他"替代。身体描写三锚点(铜铃/水纹/草药)之外不加。文化壁垒=延时装置(5维:触碰/视线/空间/食物/名字)。色气密度≤12个关键时刻/全书。暧昧期永远>在一起。语言模式D(亲近)≤5次/全书
 
-### V3.0 百万字网文规模适配 (2026-02-24)
-- **事件规模表重写**: 双维度(净占用章节+总跨度)，配额适配101章/卷（微型20-30/小型6-10/中型3-5/大型1-2）
-- **事件弧设计系统**: 6阶段内部结构(引入/展开/转折/深入/高潮/余波) + L0-L3嵌套架构（中型以上强制）
-- **推进章**: 新章节类型(紧张值4-7)，填补核心章与过渡章之间空白
-- **节奏配比**: 固定10章周期→弹性15-25章滑动窗口，百分比制
-- **冲刺段例外**: 仅限终幕引爆段/中点合流段，允许6-8章连续核心/连续高紧张
-- **呼吸三层体系**: 卷级呼吸 + 事件弧级呼吸 + 弧内呼吸点(每8-12章)
-- **支线三层合流**: 短(15-20章)/中(30-50章)/长(跨卷)，脉搏检测阈值20章，支持计划内休眠
-- **设计性沉默期**: 叙事线可预标注最长15章沉默，每卷每线最多1次
-- **级联引爆/汇聚节奏**: 四级分级参数(触碰/碰撞/合流/终幕引爆)
-- **伏笔回收双轨制**: 线内章节距离 + 总章节距离
-- **Decisions R-19 through R-23 recorded**
-- **下游待适配**: 小说节奏规划(+推进章)、第一卷(+新事件规模)、案件集(+双轨制)、多样性来源库(+新Tier)
+## Current File Versions (2026-03-03)
 
-### V2.1 WorldBible Management System (2026-02-24)
-- **Health Index created**: `WorldBible/世界通鉴·健康索引.md` V1.0 — mandatory pre-work dashboard
-- **G role strengthened**: authority chain, 7-type consistency checklist, 5-step audit protocol, version management, reading guidance
-- **D role strengthened**: pre-validation read protocol (health index → type-based modules → cross-compare), enhanced output with `【世界通鉴引用验证】`
-- **Pre-work protocol updated**: step 2 = read health index; role-based reading path table (8 roles × required + optional modules)
-- **UPDATE workflow updated**: step 4.5 = WorldBible consistency check; dependency graph includes health index
-- **Bugs fixed**: H-001 (Dmitri #67→removed from 21-50 table), H-002 (Eileen #23→#22), H-003 (old terms replaced), H-004 (2阶感应者→二序·共鸣)
-- **Decisions R-17, R-18 recorded**
-- **Authority chain**: 系统篇 > 总纲 > 典籍 > 六国志/秘密组织/人物图鉴
+| File | Version | Lines | Notes |
+|------|---------|-------|-------|
+| CHANGELOG.md | **V6.9** ✅ | ~2200 | +诺敏V2.0 |
+| 全卷案件总纲_V5.0.md | **V5.2** ✅ | ~2432 | V3-V7全部7个占位符角色实体化完成 |
+| 全卷案件总纲_V4.0.md | **V4.0-complete** ✅ | ~2046 | 备份(V5.0已替代) |
+| 世界通鉴·彼界.md | **V1.2** ✅ | ~1010 | 一序行删除+二序标注最低门槛 |
+| 彼界七卷事件设计方案.md | **V1.1** ✅ | ~1100 | TYPE1-4完整+米莲娜设计 |
+| 彼界伙伴系统调研报告.md | **V1.0** | ~467 | M-01~M-10机制 |
+| 敌对暧昧叙事调研报告.md | **V1.0** | ~476 | 12作品+8原则+13机制 |
+| 支线登记表.md | **V1.3** ✅ | ~275 | 一序→二序修正 |
+| 概念登记总表.md | **V1.3** ✅ | ~750 | 一序刻度锚点修正 |
+| 索兰.md | **V1.0** ✅ | ~297 | TYPE 2彼界掮客 |
+| 遗言者.md | **V1.0** ✅ | ~315 | TYPE 3彼界导师 |
+| 人设集.md | **V2.4** ✅ | ~300 | +7新角色索引(哈什克/薇奥莱塔/赫尔穆特/伊万/奥丽加/芬恩/塔莉亚) |
+| 小说节奏规划.md | **V3.5** ✅ | ~2760 | |
+| 案件与伏笔集.md | **V4.0** ✅ | ~2035 | V1详细+V2-V7框架+V5.0系统对齐 |
+| 全卷案件总纲.md | **V3.1** ✅ | ~1120 | |
+| 第一卷.md | **V5.9** ✅ | ~8670 | |
+| 诺敏.md | **V2.0** ✅ | ~344 | 全七卷弧线+色气系统+关系发展线 |
+| 哈什克.md | **V1.0** ✅ | ~100 | V3兽灵族L1·精简版 |
+| 薇奥莱塔.md | **V1.0** ✅ | ~100 | V4半精灵L1·精简版 |
+| 赫尔穆特.md | **V1.0** ✅ | ~93 | V4敌方L1·精简版 |
+| 伊万.md | **V1.0** ✅ | ~98 | V5灵木族L1·精简版 |
+| 奥丽加.md | **V1.0** ✅ | ~96 | V5敌方L1·精简版 |
+| 芬恩.md | **V1.0** ✅ | ~101 | V6半兽灵L1·精简版 |
+| 塔莉亚.md | **V1.0** ✅ | ~100 | V7封印双柱L1·精简版 |
+| Thanatos五连锁分布表.md | **V1.0** | ~330 | |
 
-### V2.0 Agent Architecture Restructure (2026-02-24)
-- **Agent file reduced**: 1215 lines → ~900 lines (~26% reduction)
-- **Token budget rebalanced**: Z(37%→13%), A(1%→11%), B(4%→9%), C(25%→11%), D(2%→7%), E(5%→7%), F(0.8%→9%), G(3.5%→6%), H(2.6%→2%)
-- **Genre Adaptation Layer added**: conditional modules `[条件模块:mystery/romance/fantasy/political_intrigue/horror/literary]` with weight-based activation
-- **Detective hardcoding removed**: Christie fusion, suspect chains, mini-puzzles moved to `[条件模块:mystery]`
-- **Static data externalized**: 3 reference files in `/Project/Reference/`
-- **E role renamed**: 案件设计者 → 事件与冲突设计者 (Event & Conflict Architect)
-- **多样性来源库 V2.0**: 7 tiers (世界架构/卷级框架/中型事件/小型事件/日常氛围/情感关系/结构手法), mandatory research protocol (来源调研卡), cross-tier mixing rule
-- **STAGE 4 renamed**: 案件与伏笔集 → 核心事件与伏笔集 (file name unchanged for backward compat)
-- **New STAGE 0 outputs**: 类型基因档案, 主题框架
-- **New STAGE 3 output**: 文风基调规划
-- **New project files**: Outline/类型基因档案.md, Outline/主题框架.md, Outline/支线登记表.md, Styles/文风基调规划.md
-- **Cases/ directory NOT renamed** (backward compat decision R-14)
-- **chapter-blueprint-engineer.md updated**: references to 案件设计者→事件与冲突设计者, 案件与伏笔集→核心事件与伏笔集
-- **Dual-mode workflow** (decision R-15): 模式检测→创建模式(STAGE 0-5) OR 迭代模式(UPDATE工作流)
-- **UPDATE工作流**: 影响分析→跨文件依赖图→级联深度控制(浅/中/深)→版本号规则→常见场景速查表
-- **Cross-file dependency map**: WorldBible→人设+事件; 人设→事件+文风; 节奏→章纲+商业线; 事件→章纲+误导表; etc.
-- **Multi-line convergence** (decision R-16): 多线并行→汇聚爆发升级为核心原则
-  - Line Architecture Table: 2-5 named lines per volume, each with own tension type
-  - 4 convergence types: 触碰(casual)/碰撞(forced)/合流(truth merge)/终幕引爆(all-line explosion)
-  - Cascade Detonation 5-step: 散播→暗流→触发→连锁→余震
-  - Rhythm management: pre-convergence tension sync pattern, inter-line switching rules
-  - Convergence Event Registration Form: mandatory for all medium+ events
+## Key Architecture
+- **7 volumes** ~100ch each ~25万字: V1裂缝/V2棋局/V3野心王/V4暗棋/V5面具/V6更迭/V7诸王黄昏
+- **V1: 5 parallel lines**: A(Painter) B(Political/Antonio) **C(Otherside·独立超长线)** D(BloodMoon/Agnes) **E(太阳之影·赛琳暗线)**
+- **V1 终幕引爆**: A+B+D+E四线汇聚（Line C不参与，完全独立）
+- **V2: 5 parallel lines**: A(灵质武器化追查) B(莱的棋局·群像) **C(彼界·故事与人格·独立)** D(血月升温·阿涅丝失联) **E(帝王棋第二步)**
+- **V2 终幕引爆**: A+B+D+E四线汇聚（Line C不参与）。阿依努尔L1(Ch60)+阿涅丝L3(Ch75)+莱举旗七序突破+国王逃脱
+- **V2关键来源**: 全职猎人嵌合蚁/谍影重重/暗杀教室/龙纹身女孩/银英传莱因哈特/教父/赤心巡天/三体章北海/消失的爱人/权力的游戏小指头
+- **V3关键来源**: 十二国记/Malazan·Chain of Dogs/Stormlight Archive·Dalinar/来自深渊/Ocean's Eleven/冰菓/古畑任三郎/东野圭吾·秘密/3月的狮子/Sherlock·Irene Adler/SPY×FAMILY/银英传·杨威利
+- **V4关键来源**: Stormlight Archive·间谍弧/Malazan·帝国治理/Ted Chiang/物语系列/来自深渊·中层以下/异兽迷城·禁区+组织经济/Dune·Bene Gesserit+帝国阴谋/东野圭吾·嫌疑人X/3月的狮子·日常/银英传·新帝国困境
+- **V5关键来源**: 消失的爱人(假面关系)/Dune·BG(棋子觉醒)/秘密·东野(日常渗透)/Bloodborne(洞察力)/Re:Zero(面对选择)/诡秘之主(序列消化)/Sherlock·Irene(缺席存在)/银英杨威利(不救的痛苦)
+- **V6关键来源**: Malazan·Chain of Dogs(末日行军)/Ted Chiang(知道结局后的选择)/来自深渊(越深越不可逆)/Stormlight·Dalinar(记忆回归)/银英·杨威利(天才最后布局)/东野·嫌疑人X(牺牲逻辑)/赤心巡天(R-8)/异兽迷城(Y-2)/暗杀教室(倒计时友谊)
+- **V7关键来源**: 陀思妥耶夫斯基·宗教大法官(终极辩论)/Malazan·Memories of Ice(群像收束)/攻壳机动队(人神选择)/FMA(拒绝神格)/银英·莱因哈特终章(帝王黄昏)/Mushishi(安静终章)/进击巨人·尤弥尔(被奴役者选择)/Blade Runner 2049(被创造存在的意志)/夏目友人帐(非人告别)/浪客剑心(放下武力)
+- **Line C超长线路线图**: V1种子→V2-V3培育→V4暗流同步→V5临界→V6引爆→V7收束
+- **V7核心设计**: 七轮辩论(奥里斯vs阿尔温)+莱拒绝融合+虚妄灵=全书最大伏笔+月之长老R-8+遗言者消散+赛琳独立+灰色结局+书店钥匙Y-2终极回响
+- **★全卷案件总纲V5.0完成★**: V4.0基础上12项进化(死亡配额2+L1/卷+五层压力+世界倒计时+七卷叙事递进+认知颠覆+伏笔唤醒+继承模式组织+V5.0注释块V1-V7)
+- **★死亡配额铁律(2026-03-02用户指令)★**: 每卷≥2个L1真死亡(敌方计入)。混合模式V1-V3异兽迷城→V4-V7斩赤红之瞳。17个L1跨7卷。全部占位符已实体化
+- **4-act**: Cracks(1-26) Chess(27-50) Abyss(51-75) Convergence(76-101)
+- **Thanatos Gambit (R-37)**: Lv4连锁+Lv5哲学, 织命盲区=死人遗产, 5连锁引爆
+- **Triangle Engine**: 赛琳=Leoric's split → falls for Alwin → breaks with Leoric → contingency
+- **Agnes**: 5 fragments + Ch101 mask reveal; Leoric: 5 letters + Ch82-84 entrance
+- Authority: 系统篇 > 总纲 > 典籍 > 六国志/秘密组织/人物图鉴
 
-### V3.0 Architecture (2026-02-20 Restructure)
-- **Four parallel lines** replacing three sequential cases:
-  - Line A: Painter's Death (surface mystery, Ch1-全卷)
-  - Line B: Political Undercurrent (Antonio as living character Ch8-38, death at Ch35-38)
-  - Line C: Otherside/Abyss (new, 4-phase exploration arc)
-  - Line D: Blood Moon (Agnes 5 fragments + indirect clues)
-- **Four-act structure**: Cracks(Ch1-26) -> Chess(Ch27-50) -> Abyss(Ch51-75) -> Convergence(Ch76-101)
-- Allen mutation + Alwin awakening moved to Ch6-7 (was Ch21)
-- Substitute reveal moved to Ch17-20 (was Ch26)
-- Leoric entrance preserved at Ch82-84
-- Agnes moonlight mask at Ch101
-- 44 foreshadowing items (17 in-volume, 27 cross-volume) -- ALL VERIFIED 100% COVERED
-- 19 misdirection paths (was 8), including 4 cross-line paths
-- All freeze markers removed
+## Active Pending Work
+1. 安东尼奥灵契源流类型待用户确定
+2. 全卷案件总纲V3.0 → 15项后续待同步（V4-V7节奏规划/月之长老人设/七轮辩论/灰旗团/诺敏V4-V7弧线等）
+3. [残留/非阻塞] A-02情绪图表标签 vs 统计表差异
+4. ~~[完成] 开采痕迹全面消除 + Line E加入 + Line C超长线重定义~~ → ✅ V5.9
+5. ~~莱奥里克 OOC 6处修正（V4-V7）~~ → ✅ V4.0-complete中V7结局明确修正：拒绝融合=不妥协的终极形式（V4释放灰旗团已在V4段修正为"战略收编"）
+6. ~~诺敏V2.0完整档案待写~~ → ✅ V2.0完成(344行·全七卷弧线+色气系统)
+7. [新] H-006: Ch60"D是系统"假说叙事来源需重新评估（Line C独立后）
+8. ~~Line E七步帝王棋局详细设计~~ → ✅ 已在全卷案件总纲V4.0中每卷Line E完整设计（V1碎片→V7终结=莱棋局内的子棋局）
+9. ~~[完成] 米莲娜人设卡创建~~ → ✅ V1.0 (346行)
+10. ~~[完成] 索兰人设卡创建~~ → ✅ V1.0 (297行)
+11. ~~[完成] 遗言者人设卡创建 + 人设集索引更新~~ → ✅ 人设集V2.3
+12. ~~[完成] 彼界伙伴事件→案件与伏笔集同步~~ → ✅ V4.0中V5-V7框架已包含凯撒/索兰/遗言者/米莲娜事件
+13. ~~[完成] 3个占位符角色设计+总纲实体化~~ → ✅ 哈什克(V3)+薇奥莱塔(V4)+赫尔穆特(V4)已在V5.1中写入
+14. ~~[完成] V5/V6/V7占位符角色设计+总纲实体化~~ → ✅ 伊万(V5)+奥丽加(V5)+芬恩(V6)+塔莉亚(V7)已在V5.2中写入
+15. ~~[剩余] 7个新角色人设卡待写~~ → ✅ 全部7个精简版人设卡完成(哈什克/薇奥莱塔/赫尔穆特/伊万/奥丽加/芬恩/塔莉亚)
+16. [新] V2事件弧需整合德米特里L1间接致死细节
+17. ~~[完成] V5-V7事件弧需整合各卷新L1死亡角色~~ → ✅ V5.2中V5/V6/V7全部写入
+18. [剩余] 案件与伏笔集V4.0需同步7个新角色事件
+19. [剩余] 节奏规划需同步V5/V6/V7新死亡场景章节
+20. ~~[剩余] 人设集索引需更新~~ → ✅ 人设集V2.4已包含全部7新角色
 
-### V5.1 Alignment Fix (正文与细纲对齐修复)
-- **Core principle**: Mian.novel is ABSOLUTE BASELINE; blueprints must conform to novel text
-- V5.0 Ch1 (3 scenes, ~7500w) split into V5.1 Ch1 (gallery+bar, ~3800w) + Ch2 (sibling talk, ~3700w)
-- V5.0 Ch2 -> V5.1 Ch3 "丝来线去", V5.0 Ch3 -> V5.1 Ch4 "三条线"
-- V5.0 Ch4 "灵痕不说谎" tea reasoning absorbed into V5.1 Ch5 opening (~800w breathing segment)
-- Ch5-7 preserved as mini-climax (pressure+detonation+awakening)
-- Ch8+ numbering identical to V5.0, no cascade
-- Decision R-10: Novel chapter splits take priority over blueprint merging
-- Decision R-11: Tea reasoning absorbed into Ch5, not standalone chapter (preserves 7-chapter constraint)
-- Fragment 1 repositioned to Ch3 end (was V5.0 Ch2 scene 3)
-- PA01 at L370, PA02 at L377 -- verified against novel text
-- Scene marking system: 【正文已实现】vs【待写】on every scene/content block
-- 节奏规划V3.1 Ch1-7 beats fully synced with 第一卷V5.1
+## Frozen Items
+- All 正文 writing — frozen
+- ~~Non-human race decisions — frozen~~ → **解冻(2026-02-28)**，开始设计种族机制
 
-### Phase 3 Completion Details (Chapter Blueprints V5.0->V5.1)
-- 第一卷.md V5.1: ALL 101 chapters complete (Ch1-7 realigned, Ch8-101 from V5.0)
-- Act 1 (Ch1-26): Ch1-4 golden templates rewritten to match Mian.novel, Ch5-7 adjusted, Ch8-26 from V5.0
-- Act 2 (Ch27-51): Antonio arc, 彼界 mid-layer, fragment four, Leoric letters
-- Act 3 (Ch52-75): NEW - golden templates for Ch52-53, Ch55, Ch62, Ch67, Ch73
-- Act 4 (Ch76-101): NEW - golden templates for Ch76-77, Ch79-82, Ch91, Ch99, Ch101
-- Comprehensive verification report appended (577 lines)
-- Character checks: Agnes 92/100, Antonio 96/100, Leoric 98/100, Isolde 94/100
-- 4 non-blocking suggestions (S-01 through S-04) for future iteration
+## Unresolved Conflicts
+- **Goblins in 正文**: No non-human races in world bible (彼界实体化生物 workaround)
+- **正文 is DRAFT ONLY**: Skips Ch1-2, tone mismatch, wrong terminology
 
-### Critical Unresolved Conflicts (as of 2026-02-21)
-1. ~~**Dmitri spirit type**~~: RESOLVED V1.0 → 织命·人脉型
-2. ~~**Kassarin politics**~~: RESOLVED V1.0 → 三执政制
-3. **Goblins in 正文**: No non-human races in world bible (resolved V1.0 as 彼界实体化生物)
-4. **正文 is DRAFT ONLY**: Skips Ch1-2, tone mismatch, wrong terminology
-5. ~~**F-09 Adrian tier**~~: RESOLVED V3.3 → 7阶 at V1 start, 皇位门槛=8阶
+## World Bible Notes
+- 柱位百杰 table (系统篇 ~L190-198) = ground truth for rankings
+- Adrian: 7阶 V1 start, 冠位#5, 皇位门槛=8阶
+- Grigor: 8阶, 铸魂·造物型 (六国志 L397)
+- **世界通鉴·彼界V1.1**: 3层(表/中/深)+显影区+6表层地形+5中层地形+5深层地形
 
-### World Bible Structure Notes
-- Part 1-7: Core systems (spirit contracts, tiers, combat, collapse, etc.) - consistent
-- Part 3: 天秤 rankings - CANONICAL reference for character rankings
-- Part 8+: National details - NOW CONSISTENT with Part 3 (unfrozen V3.3)
-- The 柱位百杰 table (Line ~190-198 in 系统篇) is ground truth for character rankings
-- F-01 through F-04 fixes applied in V1.4, F-09 fixed in V3.3
-- Adrian: 7阶 at V1 start, 冠位#5, 皇位门槛=8阶 (V3.3 ruling)
-- Grigor: 8阶, 铸魂·造物型 (added to 六国志 L397)
+## Key User Principles (2026-03-02)
+- **★ 调研先行 ★**: "每次遇到不确定怎么写精彩应该先调研历史和小说中怎么写这个角色/事件最精彩"
+- **★ 严格跨层混搭 ★**: 确保每个来源库引用都经过调研。中型以上事件弧必须从至少2个不同Tier各选1个来源
+- **★ 阿尔温被迫卷入 ★**: "事件不应该围着他走而是他被迫卷入"
+- **★ 阿涅丝揭示方式 ★**: 不直接展示改变事件线→"某个事件中突然发现阿涅丝竟然是她"
+- **★ 来源调研卡+多角色评语=强制(2026-03-02确认) ★**: 总纲中每个事件弧必须附完整来源调研卡(Tier+来源+可迁移机制+变形方案)+四角色评语([E][B][C][D])。缺一则打回重做
+- **★ D案件V2+零引用=铁律(2026-03-02再确认) ★**: V2-V7禁止出现"D案件"三个字。V2阿尔温动机=安东尼奥遗产延伸(灵质武器化)+跨国研究项目
+- **★ 死亡焦虑系统(2026-03-02) ★**: 异兽迷城式——"不知道这个角色到底会不会死的忧虑"。活过再死铁律(死前>=10-15章出场)。四层失去(真死亡/活死亡/社会死亡/死亡威胁)
+- **★ 每卷2+L1真死亡配额(2026-03-02用户硬性指令) ★**: "加大核心成员死亡，每卷必须两个以上核心角色的死亡，不然不是不会给你过的。参考斩赤红之瞳和异兽迷城。" 仅L1真死亡计入。混合模式V1-V3异兽→V4-V7斩赤。调整已有角色+敌方+每卷加高质量配角(暂不写细节放任务堆)
 
-### Frozen Items (Updated 2026-02-24)
-- All 正文 writing - frozen
-- Non-human race decisions - frozen
-- ~~World bible Part 8 (Kassarin details)~~ - old terms fixed (H-003), no longer frozen
-
-### What Works Well
-- Four-line parallel architecture creates natural cross-line misdirection opportunities
-- Antonio as living character (30 chapters) massively increases emotional impact
-- ABC1 misdirection (D=Dmitri) is the series' biggest investment/payoff
-- Agnes five-fragment system ensures second-read satisfaction
-- Writing large files in sections via Bash heredoc avoids token limit issues
-- Per-chapter beat descriptions prevent vague/empty chapters
-- Comprehensive verification reports catch edge cases early
-
-### Key Architectural Decisions
-- 5 volumes, 100 chapters each, ~25万字 per volume
-- D-mode as through-line mystery connecting all four lines
-- D is a "system" not a person (revealed gradually, Line C Ch62 first hint)
-- Agnes (阿涅丝) dark line: 5 fragments across volume + Ch101 mask reveal
-- Leoric (莱奥里克) appears via 5 letters then enters at Ch82-84
-- Gray endings (Antonio's death) as deliberate design choice
-- Misdirection path conversion rate: 100% (all paths serve truth revelation)
-
-### ALL Restructure Phases COMPLETE
-- [DONE] Phase 1: 案件与伏笔集.md V3.0 + 误导路径成本表.md V2.0
-- [DONE] Phase 2: 小说节奏规划.md V3.0 + 商业安全线报告.md V2.0
-- [DONE] Phase 3: 第一卷.md V5.0 (Ch1-101 complete + verification reports)
-- [DONE] Phase 4: 全面同步验证 (Logs/Phase4_同步验证报告.md V1.0)
-- [DONE] Phase 5: 正文与细纲对齐修复 (第一卷V5.1 + 节奏规划V3.1 + CHANGELOG V1.9)
-
-### Phase 4 Key Findings (2026-02-20)
-- **44/44 foreshadowing items verified** (100% coverage)
-- **Act2 Ch36-50 desynchronized** between 节奏规划V3.0 and 第一卷V5.0 (titles/content rearranged)
-  - 第一卷V5.0 is the EXECUTION STANDARD for writing
-  - 节奏规划V3.0 Act2 needs update in future iteration [A-01]
-- PB08 (德米特里举杯): Ch40 in cases file, Ch48 in 第一卷 -- annotation added
-- 商业安全线报告V2.0 already follows 第一卷V5.0 structure (correct)
-- OOC checks all pass: Agnes 92, Antonio 96, Leoric 98, Isolde 94
-- D-line four-thread progression verified complete
-- World bible consistency OK (frozen items excepted)
-
-### Concept Audit V2.1 (2026-02-21) -- KEY DECISIONS
-- **D-mode naming**: D comes from victim's (Elias Winter) dying blood-letter on floor, NOT "Drive"
-- **D-naming suspense scope**: Volume 1 ONLY. D letter mystery solved by end of Vol1. Each volume has its own core suspense (V2=sibling, V3=traverser truth, V4=war/sacrifice, V5=final choice)
-- **灵值 scale**: Exponential/order-of-magnitude (1序:1-100, 2序:101-1000, 3序:1001-10000...)
-- **灵石 REJECTED**: User hates "灵石" (sounds like xianxia). New term: "灵质" (Spirit Medium) with subtypes: 灵质结晶/灵质液/灵质合金/灵质粉
-- **Dmitri needs more oppression**: Four-layer system designed (social/professional/psychological/existential)
-- **Alwin backstory**: First D-case = scholar Elias killed, partner Karl Leighton disappeared, Dmitri orchestrated dismissal
-- **New characters**: Elias Winter (dead scholar), Karl Leighton (missing partner) -- need addition to 人设集 and 人物图鉴
-- **"频率签名" banned**: Replace with "灵痕纹路" or "灵痕笔迹" everywhere
-- 17 concept issues total (C-01 through C-17), cross-role validated
-
-### Concept Audit Write-In COMPLETE (2026-02-21)
-- [DONE-C01] D-mode naming + backstory written into: 人设集, 案件集
-- [DONE-C02] 灵值 exponential scale written into: 世界通鉴·系统篇
-- [DONE-C03] 频率签名 replaced in: 案件集, 第一卷, 节奏规划
-- [DONE-C12] 灵質 multi-form system written into: 世界通鉴·系统篇; 灵石 replaced in: 科技文明篇, 六国志, 灵学, 经济社会, 系统篇, 人设集, 第一卷
-- [DONE-C16] Dmitri enhancement written into: 人设集 (独立档案 with 四层压迫)
-- [DONE-C17] Alwin backstory written into: 人设集 (D模式动机线 rewrite + Karl profile); 人物图鉴 (Elias + Karl entries)
-- NOTE: 第一卷章纲中的德米特里强化场景（C-16建议的5个场景）尚未写入具体chapter blueprints -- 属于下次迭代
-
-### Five-Volume Outline (五卷案件总纲 V2.3, 2026-02-21)
-- File: Cases/五卷案件总纲.md, 752 lines
-- Six nations all have 8th-tier or equivalent combat power
-- Leoric: 8 spirits from 8 source flows (missing only Void), suspected Oris reincarnation
-- Agnes: Tielin Academy graduate → Royal Academy new student → Blood Moon Holy Maiden → "妖女"
-  - V1: 19yo, 2nd-tier contractor, Tielin's youngest in 30 years
-  - V2: Infiltrated via Royal Academy social circles, "dies" in blood night chaos
-  - V3: Active as masked Blood Moon agent
-  - V4: Alwin confirms mask = Agnes (emotional nuclear detonation)
-  - V5: Gray redemption
-- D mystery closed in V1; each volume has independent core suspense
-- Event-level forced diversity: ~40 events across 5 volumes, each with ≥3 reference categories from 16-category library
-- All 16 categories used (minimum 4 times each)
-- [DONE] Triple verification (Task 4): F-05~F-09 found, S-01~S-05 suggestions, W-01~W-04 warnings, R-01~R-02 rhythm
-- [DONE] Cross-file sync (Task 5): F-05/F-06/F-07/F-08 fixed in 人设集V2.1+总纲V2.3; F-09 deferred
-
-### Pending Work (Future Sessions)
-- [DONE] Triple verification (Task 4): Logs/Task4_三重验证报告.md V1.0 (88/85/90 scores)
-- [DONE] Cross-file sync (Task 5): F-05/F-06/F-07/F-08 resolved; F-09 resolved V3.3
-- [DONE] Part 8 unfreeze: All 3 conflicts resolved (V3.3)
-- [DONE] V3 breathlessness repair: 10 breathing points (V3.4)
-- [DONE] 德米特里强化场景写入 V3.5（Ch3/Ch5/Ch13/Ch24/Ch48）
-- [DONE] 第一卷V5.3升级: Task1-3整合+验证附录 (V3.6)
-- 正文 rewrite/continuation to match V5.3 chapter blueprints (Ch5+ all 待写)
-- Volume 2-5 detailed chapter blueprints (currently only key beats defined in 五卷案件总纲)
-- [A-01] 节奏规划V3.2 Act2(Ch36-50) still desynchronized with 第一卷V5.3 (Ch1-7 part fixed)
-- [S-05] Ch9 D模式回忆中增加"三年前证据也被新标准封杀"回响
-- [S-06] Ch14增加阿尔温对阿涅丝多看一眼呼应Ch13断章
-
-### Lessons Learned
-- Large documents (1000+ lines) must be written in sections to avoid token limits
-- Read files in sections (offset/limit) when >25000 tokens (256KB limit)
-- Always verify line counts with wc -l before and after edits
-- Use Bash heredoc (cat >>) to append large sections rather than Edit tool
-- Files exceeding 280KB cannot be fully read by Read tool -- use Bash tail/grep instead
-- Foreshadowing codes may differ between V3.0 (PD01-PD11) and earlier act blueprints (descriptive names) -- verify by description not just code
-- Verification reports should check both code-based and description-based references
-- When splitting chapters, always verify total count constraint (e.g., "7-chapter mini-climax") before adding new chapters
-- Absorbing content into existing chapters (e.g., tea reasoning into Ch5 opening) avoids numbering cascades
-- V5.1 Ch2 header says "L115-L288" (includes transition), V3.1 says "L131-L288" (content start) -- both correct, not a conflict
+## Lessons Learned
+- Large docs (1000+ lines): write in sections via Bash heredoc
+- Read files in sections (offset/limit) when >25000 tokens
+- Always verify line counts with wc -l before/after edits
+- Files >280KB: use Bash tail/grep instead of Read tool
+- Mian.novel is ABSOLUTE BASELINE for Ch1-4 content
+- When splitting chapters, verify total count constraint first
+- Absorbing content into existing chapters avoids numbering cascades
+- **★ 彼界不应有现实线索 ★**: 用户核心反馈——"彼界为什么会有现实的线索？"→超长线应完全独立
+- **★ 概念必须make sense ★**: "开采"概念被否决因为用户问"彼界为什么会被开采？"→所有概念需要内在逻辑自洽
+- **★ 新线路要有独特张力类型 ★**: Line E(赛琳)=世界张力，不与A(悬疑)/B(政治)/D(命运)重叠
+- **★ 总纲写入方法论(2026-03-02) ★**: 分段写入(每段250-350行)效率最高。强制agent"不要问问题直接写入"否则会无限循环提问。V4.0用5个agent段完成2046行
+- **★ 后台agent编辑权限问题(2026-03-02) ★**: novel-creation-team后台agent对总纲文件Edit权限被拒绝。解决方案：直接在主agent中执行Edit操作，不使用后台agent做文件修改
