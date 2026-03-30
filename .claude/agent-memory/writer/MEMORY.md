@@ -10,6 +10,7 @@
 - [信息释放节奏控制](feedback_info_release_timing.md) — 推理线索不能释放太早，情感场景不当侦探，"差点说出来被打断"比"推理出来"更好
 - [句子节奏铁律](feedback_sentence_rhythm.md) — 基础句式必须是中长句连贯思绪流，短句仅极少数戏剧强调用。AI默认堆短句是偷懒，必须纠正
 - [内心独白禁用文艺比喻](feedback_no_literary_metaphor_in_voice.md) — 情绪越重越要守住角色认知指纹，禁止文艺比喻/通用类比/叙述者概括情绪，阿尔温=分析拆解自嘲实务
+- [阿尔温核心人格锚定：梓川咲太](feedback_alwin_sakuta.md) — 松弛嘴贱、用不正经掩盖在意、压力下幽默消退但声音不变人、不做戏剧性宣言
 
 ### Project
 - [Ch7角色关键设定](project_ch7_character_notes.md) — 米娅的矛盾（不想死vs觉得自己是累赘）、艾伦信任上限受幕后人控制、阿克曼症的攻击性
