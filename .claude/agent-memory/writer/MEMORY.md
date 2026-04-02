@@ -14,6 +14,7 @@
 - [禁止"不是X，是Y"句式堆砌](feedback_no_negation_pattern.md) — AI高频拐杖，一段内最多1次，写完后检查"不是"频率
 - [禁止破折号"——"滥用](feedback_emdash_overuse.md) — 200字内最多1个，优先用逗号/句号，只保留给真正的戏剧性打断
 - [内心声音要人性化不要机械分析](feedback_no_mechanical_inner_voice.md) — 身体感受用口语反应不用医学定位，转场直接切不解释机制，压力下也要有人味
+- [禁止信息汇报式写作](feedback_no_data_report_style.md) — 信息必须通过"人经历了什么"传递，不能列举结果。"剩一发""零伤害""预见更新"是游戏日志不是小说
 
 ### Project
 - [Ch7角色关键设定](project_ch7_character_notes.md) — 米娅的矛盾（不想死vs觉得自己是累赘）、艾伦信任上限受幕后人控制、阿克曼症的攻击性
