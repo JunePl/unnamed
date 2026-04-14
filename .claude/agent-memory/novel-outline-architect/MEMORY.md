@@ -1,3 +1,4 @@
 - [小说项目核心信息](project_novel_core.md) — 西方奇幻都市悬疑，7卷结构，第一卷V11.0 Ch1-85
 - [已确认的写作问题](feedback_writing_issues.md) — P0角色声音/P1轻小说感+节奏呼吸+F线/P2碎片支线，三轮分析确认
 - [参考作品细纲与对比分析](project_reference_outlines.md) — 一世之尊+术师手册第一卷完整细纲已拆解，八维度对比分析已完成
+- [V13 世界观与结构锁定要素](project_worldbuilding_v13.md) — V13 四项规则/人物关系/特殊生物/训练系统/V11→V13 映射全锁定
