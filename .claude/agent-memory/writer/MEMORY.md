@@ -16,6 +16,8 @@
 - [内心声音要人性化不要机械分析](feedback_no_mechanical_inner_voice.md) — 身体感受用口语反应不用医学定位，转场直接切不解释机制，压力下也要有人味
 - [禁止信息汇报式写作](feedback_no_data_report_style.md) — 信息必须通过"人经历了什么"传递，不能列举结果。"剩一发""零伤害""预见更新"是游戏日志不是小说
 - [Ch16-18审核新发现5踩雷](feedback_ch16_18_audit_lessons.md) — 现代词污染/punchline自爆/bullet list百科感/叙述者替读者做笔记/配角引用术语
+- [作者情绪vs角色情绪分离+AI情绪偏好防御](feedback_author_vs_character_emotion.md) — 禁止把"AI觉得酷"硬套成"角色震惊"。事件稀有度决定情绪强度，角色性格决定情绪形式。五道检查
 
 ### Project
 - [Ch7角色关键设定](project_ch7_character_notes.md) — 米娅的矛盾（不想死vs觉得自己是累赘）、艾伦信任上限受幕后人控制、阿克曼症的攻击性
+- [阿尔温人物核心背景](project_alwin_personal_background.md) — 5岁前无记忆/孤儿院/和阿涅丝一起被领养到16/唯一亲人是阿涅丝。写童年/家事必查

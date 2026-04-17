@@ -2,3 +2,16 @@
 - [已确认的写作问题](feedback_writing_issues.md) — P0角色声音/P1轻小说感+节奏呼吸+F线/P2碎片支线，三轮分析确认
 - [参考作品细纲与对比分析](project_reference_outlines.md) — 一世之尊+术师手册第一卷完整细纲已拆解，八维度对比分析已完成
 - [V13 世界观与结构锁定要素](project_worldbuilding_v13.md) — V13 四项规则/人物关系/特殊生物/训练系统/V11→V13 映射全锁定
+- [雷纳德角色档案核心锁定](project_reynard_canon.md) — Ch50才登场/Ch20-45只留三条痕迹/不叫M/不去王都/酸面包是收容所仪式
+- [德米特里角色档案核心锁定](project_dmitri_canon.md) — 不是皇族是三执政最强/终极目标独自掌九阶傀儡灵/可能与虚空圣座有合作
+- [细纲骨架粒度规则](feedback_outline_granularity.md) — V13 每章 50-80 行·不写旁白和心理独白·只写基础框架故事
+- [侦探破案方法论·拒绝灵痕数据库查询](feedback_detective_methodology.md) — 破案必须读人+常识物理+行为细节·灵痕/分析仪只做验证不做发现
+- [V12/早期 V13 系统性幻觉清理](project_v12_hallucination_cleanup.md) — 整卷需逐章排查"灵能年轮/频谱签名/数据库比对"幻觉描写
+- [灵质与灵痕世界观硬规则](project_worldview_lingzhi_rules.md) — 灵质回归彼界/无长年年轮/逸散不带实力信息/灵痕仅读时间窗口+同源+活动量
+- [阿尔温学院背景+安东尼奥师徒关系](project_alwin_academy_background.md) — 皇家学院灵与心理学毕业·安东尼奥是导师+三年前保他不进监狱的恩人
+- [卡萨林灵使训练营+训练副线角色](project_training_academy.md) — 重返故地/6年真灵空白/4.5年前放弃/帕维尔+巴克利+列娅+西蒙四配角
+- [Ch16拆章+Ch17重排+Ch18时间锚](project_ch16_ch17_refactor.md) — Ch16→Ch16a灰烬平原+Ch16b碎镜之城/Ch17改第二天/Ch18次日上午/全卷120→121章
+- [卡尔罗角色档案核心锁定](project_carlo_canon.md) — 三阶渡物·手型·物品传送/PB24内应/V1 Ch21首次+Ch55-60再用
+- [Ch28老彼得揭示·悬浮列车站陷阱重构](project_ch28_train_station_trap.md) — 堂外试探+列车站单场景聚焦/Ch29战场迁移/Ch30血月借死找活
+- [悬疑章节信息不对称铁律](feedback_suspense_info_asymmetry.md) — 布置章零剧透·读者与猎物同步·揭面后epiphany层层释放
+- [Ch31-33 骨架锁定](project_ch31_33_skeleton.md) — 呼吸+核心+呼吸·Ch32=V11 Ch30安东尼奥初见·Ch33 禁蚀析用PF碎片同源吸引替代
