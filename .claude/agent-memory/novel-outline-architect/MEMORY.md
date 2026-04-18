@@ -14,4 +14,6 @@
 - [卡尔罗角色档案核心锁定](project_carlo_canon.md) — 三阶渡物·手型·物品传送/PB24内应/V1 Ch21首次+Ch55-60再用
 - [Ch28老彼得揭示·悬浮列车站陷阱重构](project_ch28_train_station_trap.md) — 堂外试探+列车站单场景聚焦/Ch29战场迁移/Ch30血月借死找活
 - [悬疑章节信息不对称铁律](feedback_suspense_info_asymmetry.md) — 布置章零剧透·读者与猎物同步·揭面后epiphany层层释放
-- [Ch31-33 骨架锁定](project_ch31_33_skeleton.md) — 呼吸+核心+呼吸·Ch32=V11 Ch30安东尼奥初见·Ch33 禁蚀析用PF碎片同源吸引替代
+- [Ch31-33 骨架用户定版](project_ch31_33_skeleton.md) — 训练四维化+安东尼奥=三年前老师+米娅求援线激活+Ch33精简两段
+- [训练副线四维+科技+区域大战](project_training_four_dimensions.md) — 灵能/体力/运用/实战·五件套科技·Ch50+区域预选赛维卡尔多
+- [V13 Ch34-121 全卷完成](project_v13_ch34_121_plan.md) — Batch 1-4 共 88 章骨架已写入细纲·V1 卷末状态锁定·附录待更新
