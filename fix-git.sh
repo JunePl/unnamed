@@ -20,8 +20,10 @@ if [ -z "$REMOTE_URL" ]; then
     exit 1
 fi
 
-# 检查是否有损坏
-if git fsck --quick 2>&1 | grep -q "corrupt\|missing\|invalid"; then
+# 检查是否有损坏：用 fsck 输出判断
+# 不能用 --quick（旧版 git 不支持，配合 set -e + grep 会被误判为"正常"）
+FSCK_OUT=$(git fsck --no-dangling 2>&1 || true)
+if echo "$FSCK_OUT" | grep -qE "error:|fatal:|corrupt|missing|invalid"; then
     echo "检测到 git 仓库损坏，开始修复..."
 else
     echo "git 仓库正常，无需修复"
