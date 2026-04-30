@@ -17,6 +17,9 @@
 - [禁止信息汇报式写作](feedback_no_data_report_style.md) — 信息必须通过"人经历了什么"传递，不能列举结果。"剩一发""零伤害""预见更新"是游戏日志不是小说
 - [Ch16-18审核新发现5踩雷](feedback_ch16_18_audit_lessons.md) — 现代词污染/punchline自爆/bullet list百科感/叙述者替读者做笔记/配角引用术语
 - [作者情绪vs角色情绪分离+AI情绪偏好防御](feedback_author_vs_character_emotion.md) — 禁止把"AI觉得酷"硬套成"角色震惊"。事件稀有度决定情绪强度，角色性格决定情绪形式。五道检查
+- [禁止"X的那种"贴标签式概括判断](feedback_no_label_judgment.md) — AI用抽象类别词归类具体感受（"被弄痛了的那种喊"），必须删。直接写动作/事实让读者推断
+- [动作场景的"想要X但Y所以Z"挣扎结构](feedback_action_struggle_pattern.md) — 每一拍必须有意图+阻碍+情绪化反应+视觉冲击，不能写成冷工作流。AI默认"X没回头先打掉Y"是错的
+- [98%贴合度写作流程](feedback_98_percent_lifting_process.md) — 每句话每个词必须能在参考材料找到对应。先200字样本+逐句对照表，再写完整段。"差的很远"=视角错，"特别AI"=句式拐杖
 
 ### Project
 - [Ch7角色关键设定](project_ch7_character_notes.md) — 米娅的矛盾（不想死vs觉得自己是累赘）、艾伦信任上限受幕后人控制、阿克曼症的攻击性
