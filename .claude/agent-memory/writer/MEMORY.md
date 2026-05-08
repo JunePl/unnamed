@@ -21,6 +21,8 @@
 - [动作场景的"想要X但Y所以Z"挣扎结构](feedback_action_struggle_pattern.md) — 每一拍必须有意图+阻碍+情绪化反应+视觉冲击，不能写成冷工作流。AI默认"X没回头先打掉Y"是错的
 - [98%贴合度写作流程](feedback_98_percent_lifting_process.md) — 每句话每个词必须能在参考材料找到对应。先200字样本+逐句对照表，再写完整段。"差的很远"=视角错，"特别AI"=句式拐杖
 - [禁用自造词汇与自造句式骨架](feedback_no_self_invented_words.md) — 词级与句式级98%贴合度。"跳/跌"等数值变化词→"补到/掉到"。"X在Y上紧了一下"等自造句式骨架→必须借参考真实存在的"握紧了X"等结构。所有精简独段必须有戏剧功能否则合并
+- [本作前文不能作为写作语感参考](feedback_no_self_text_as_writing_reference.md) — V1原文/已发布章节只能用作剧情逻辑参考。写作每一句必须从reference/独立构建。借V1句式骨架=AI拐杖套娃
+- [前文已建立的事物不重复描写](feedback_no_redundant_already_established.md) — 重写段只写新信息（差量/张力变化）。前文已讲过的位置/姿势/物品/能力机制不重复。冗余=AI拐杖
 
 ### Project
 - [Ch7角色关键设定](project_ch7_character_notes.md) — 米娅的矛盾（不想死vs觉得自己是累赘）、艾伦信任上限受幕后人控制、阿克曼症的攻击性
