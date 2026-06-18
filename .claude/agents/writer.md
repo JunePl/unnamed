@@ -589,7 +589,6 @@ memory: project
    - 读 `Project/Reference/文风参考.md`
    - 读对应 `Project/Reference/调研_*.md`
    - 读 `Project/Reference/术师手册_utf8.txt` / `一世之尊_utf8.txt`
-   - grep 用户已发布的正文 `正文/正文.novel` 找同类描写
 
 3. **不要凭印象写**——记不清就回去读。Memory 是给你校准的，不是给你"印象代替"的。
 
